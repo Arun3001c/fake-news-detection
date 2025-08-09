@@ -1,0 +1,102 @@
+2025-08-04 07:22:11,059 - __main__ - INFO - Loading ML models...
+2025-08-04 07:22:15,843 - __main__ - INFO - Models loaded successfully
+2025-08-04 07:22:15,846 - __main__ - INFO - Starting Fake News Detection API v1.0.0
+2025-08-04 07:22:15,892 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2025-08-04 07:22:15,892 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 07:22:15,894 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 07:22:16,952 - __main__ - INFO - Loading ML models...
+2025-08-04 07:22:18,187 - __main__ - INFO - Models loaded successfully
+2025-08-04 07:22:18,190 - __main__ - INFO - Starting Fake News Detection API v1.0.0
+2025-08-04 07:22:18,200 - werkzeug - WARNING -  * Debugger is active!
+2025-08-04 07:22:18,209 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-04 07:22:32,591 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:22:32] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-04 07:22:34,754 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:22:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-04 07:24:57,426 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-04 07:24:57,772 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 07:29:50,586 - __main__ - INFO - Loading ML models...
+2025-08-04 07:29:51,839 - __main__ - INFO - Models loaded successfully
+2025-08-04 07:29:51,842 - __main__ - INFO - Starting development server...
+2025-08-04 07:29:51,868 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2025-08-04 07:29:51,869 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 07:29:51,870 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 07:29:52,867 - __main__ - INFO - Loading ML models...
+2025-08-04 07:29:54,155 - __main__ - INFO - Models loaded successfully
+2025-08-04 07:29:54,157 - __main__ - INFO - Starting development server...
+2025-08-04 07:29:54,169 - werkzeug - WARNING -  * Debugger is active!
+2025-08-04 07:29:54,178 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-04 07:33:56,871 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:33:56] "[33mGET /news?q= HTTP/1.1[0m" 404 -
+2025-08-04 07:33:57,137 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:33:57] "[33mGET /news?q= HTTP/1.1[0m" 404 -
+2025-08-04 07:34:05,420 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:34:05] "[33mGET /news?q=News HTTP/1.1[0m" 404 -
+2025-08-04 07:34:07,757 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:34:07] "[33mGET /news?q=All HTTP/1.1[0m" 404 -
+2025-08-04 07:37:21,881 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-04 07:37:23,529 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:37:23] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-04 07:37:23,535 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-04 07:37:24,767 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:37:24] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-04 07:38:53,625 - __main__ - INFO - Loading ML models...
+2025-08-04 07:38:55,045 - __main__ - INFO - Models loaded successfully
+2025-08-04 07:38:55,047 - __main__ - INFO - Starting development server...
+2025-08-04 07:38:55,072 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2025-08-04 07:38:55,073 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 07:38:55,074 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 07:38:56,124 - __main__ - INFO - Loading ML models...
+2025-08-04 07:38:57,401 - __main__ - INFO - Models loaded successfully
+2025-08-04 07:38:57,403 - __main__ - INFO - Starting development server...
+2025-08-04 07:38:57,415 - werkzeug - WARNING -  * Debugger is active!
+2025-08-04 07:38:57,421 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-04 07:39:09,476 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-04 07:39:10,854 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:39:10] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-04 07:39:10,860 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-04 07:39:11,957 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:39:11] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-04 07:39:13,233 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-04 07:39:14,253 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:39:14] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-04 07:39:14,257 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-04 07:39:15,282 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:39:15] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-04 07:49:33,612 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-04 07:49:34,837 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:49:34] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-04 07:49:34,840 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-04 07:49:35,879 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 07:49:35] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-09 19:00:54,801 - __main__ - INFO - Loading ML models...
+2025-08-09 19:01:28,711 - __main__ - INFO - Models loaded successfully
+2025-08-09 19:01:28,718 - __main__ - INFO - Starting development server...
+2025-08-09 19:01:29,227 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2025-08-09 19:01:29,230 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-09 19:01:29,458 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-09 19:01:30,199 - __main__ - INFO - Loading ML models...
+2025-08-09 19:01:31,337 - __main__ - INFO - Models loaded successfully
+2025-08-09 19:01:31,338 - __main__ - INFO - Starting development server...
+2025-08-09 19:01:31,345 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 19:01:31,350 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-09 19:01:47,397 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-09 19:01:47,454 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+2025-08-09 19:01:48,897 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-09 19:01:49,602 - __main__ - INFO - Loading ML models...
+2025-08-09 19:01:50,749 - __main__ - INFO - Models loaded successfully
+2025-08-09 19:01:50,751 - __main__ - INFO - Starting development server...
+2025-08-09 19:01:50,760 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 19:01:50,764 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-09 19:01:50,796 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-09 19:01:52,095 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 19:01:52] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-09 19:02:43,161 - __main__ - INFO - Fetching 20 articles for: 'gujarat bridge collapse'
+2025-08-09 19:02:44,329 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 19:02:44] "GET /api/news?q=gujarat%20bridge%20collapse HTTP/1.1" 200 -
+2025-08-09 19:03:02,007 - __main__ - INFO - Fetching 20 articles for: 'chennai bridge collapse'
+2025-08-09 19:03:02,984 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 19:03:02] "GET /api/news?q=chennai%20bridge%20collapse HTTP/1.1" 200 -
+2025-08-09 19:03:08,599 - __main__ - INFO - Fetching 20 articles for: 'Politics'
+2025-08-09 19:03:09,832 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 19:03:09] "GET /api/news?q=Politics HTTP/1.1" 200 -
+2025-08-09 19:03:12,463 - __main__ - INFO - Fetching 20 articles for: 'Technology'
+2025-08-09 19:03:14,041 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 19:03:14] "GET /api/news?q=Technology HTTP/1.1" 200 -
+2025-08-09 19:03:17,381 - __main__ - INFO - Fetching 20 articles for: 'Sports'
+2025-08-09 19:03:18,778 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 19:03:18] "GET /api/news?q=Sports HTTP/1.1" 200 -
+2025-08-09 19:03:37,798 - __main__ - INFO - Fetching 20 articles for: 'All'
+2025-08-09 19:03:40,377 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 19:03:40] "GET /api/news?q=All HTTP/1.1" 200 -

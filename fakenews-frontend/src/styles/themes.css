@@ -1,0 +1,85 @@
+/* Custom CSS variables for light/dark themes - Bootstrap version */
+:root {
+  /* Light Theme Colors */
+  --bs-body-bg: oklch(98% 0 0);
+  --bs-body-color: oklch(15% 0 0);
+  --bs-secondary-bg: oklch(100% 0 0);
+  --bs-tertiary-bg: oklch(95% 0 0);
+  --bs-emphasis-color: oklch(15% 0 0);
+  --bs-border-color: oklch(90% 0 0 / 10%);
+  --bs-primary: oklch(55% 0.25 250);
+  --bs-primary-bg-subtle: oklch(55% 0.25 250 / 20%);
+  --bs-danger: oklch(70% 0.25 10);
+  --bs-border-radius: 0.75rem;
+  --bs-form-control-bg: oklch(90% 0 0);
+  --bs-focus-ring-color: oklch(55% 0.25 250 / 20%);
+}
+
+.dark {
+  /* Dark Theme Colors */
+  --bs-body-bg: oklch(15% 0 0);
+  --bs-body-color: oklch(98% 0 0);
+  --bs-secondary-bg: oklch(20% 0 0);
+  --bs-tertiary-bg: oklch(25% 0 0);
+  --bs-emphasis-color: oklch(98% 0 0);
+  --bs-border-color: oklch(100% 0 0 / 10%);
+  --bs-primary: oklch(65% 0.25 250);
+  --bs-primary-bg-subtle: oklch(65% 0.25 250 / 20%);
+  --bs-danger: oklch(70% 0.19 22);
+  --bs-form-control-bg: oklch(100% 0 0 / 15%);
+  --bs-focus-ring-color: oklch(65% 0.25 250 / 20%);
+}
+
+/* Apply variables to Bootstrap components */
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+/* Focus styles for Bootstrap components */
+.btn:focus-visible,
+.form-control:focus-visible,
+.form-select:focus-visible,
+.input-group-text:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--bs-focus-ring-color);
+}
+
+/* Card styling */
+.card {
+  background-color: var(--bs-secondary-bg);
+  border-color: var(--bs-border-color);
+}
+
+/* Custom utility classes */
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-truncate-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Status badges */
+.badge-status {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 1;
+}
+
+/* Hover effects */
+.card-hover {
+  transition: all 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-0.125rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
