@@ -13,7 +13,7 @@ export default function Layout() {
     const fetchNews = async () => {
       setIsLoading(true);
       try {
-        const res = await axios.get(`http://localhost:5000/api/news?q=${searchQuery}`);
+        const res = await axios.get(`https://fake-news-detection-tdxk.onrender.com/api/news?q=${searchQuery}`);
         setNews(res.data.articles);
       } catch (error) {
         console.error("Failed to fetch news:", error);
