@@ -100,3 +100,252 @@
 2025-08-09 19:03:18,778 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 19:03:18] "GET /api/news?q=Sports HTTP/1.1" 200 -
 2025-08-09 19:03:37,798 - __main__ - INFO - Fetching 20 articles for: 'All'
 2025-08-09 19:03:40,377 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 19:03:40] "GET /api/news?q=All HTTP/1.1" 200 -
+2025-08-14 08:08:32,177 - __main__ - INFO - Loading ML models...
+2025-08-14 08:08:56,056 - __main__ - INFO - Models loaded successfully
+2025-08-14 08:08:56,058 - __main__ - INFO - Starting development server...
+2025-08-14 08:08:56,310 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2025-08-14 08:08:56,311 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-14 08:08:56,434 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 08:08:57,399 - __main__ - INFO - Loading ML models...
+2025-08-14 08:08:59,172 - __main__ - INFO - Models loaded successfully
+2025-08-14 08:08:59,176 - __main__ - INFO - Starting development server...
+2025-08-14 08:08:59,186 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 08:08:59,194 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 08:09:07,960 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 08:09:07,994 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+2025-08-14 08:09:08,856 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 08:09:09,779 - __main__ - INFO - Loading ML models...
+2025-08-14 08:09:11,301 - __main__ - INFO - Models loaded successfully
+2025-08-14 08:09:11,304 - __main__ - INFO - Starting development server...
+2025-08-14 08:09:11,311 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 08:09:11,316 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 08:09:11,358 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 08:09:12,647 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:09:12] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 08:09:12,650 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 08:09:14,344 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:09:14] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 08:12:59,885 - __main__ - INFO - Fetching 20 articles for: 'All'
+2025-08-14 08:13:02,327 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:13:02] "GET /api/news?q=All HTTP/1.1" 200 -
+2025-08-14 08:13:03,392 - __main__ - INFO - Fetching 20 articles for: 'News'
+2025-08-14 08:13:05,394 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:13:05] "GET /api/news?q=News HTTP/1.1" 200 -
+2025-08-14 08:13:30,091 - __main__ - INFO - Fetching 20 articles for: 'Politics'
+2025-08-14 08:13:31,445 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:13:31] "GET /api/news?q=Politics HTTP/1.1" 200 -
+2025-08-14 08:13:32,717 - __main__ - INFO - Fetching 20 articles for: 'Technology'
+2025-08-14 08:13:34,209 - __main__ - INFO - Fetching 20 articles for: 'Sports'
+2025-08-14 08:13:34,300 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:13:34] "GET /api/news?q=Technology HTTP/1.1" 200 -
+2025-08-14 08:13:35,753 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:13:35] "GET /api/news?q=Sports HTTP/1.1" 200 -
+2025-08-14 08:15:20,272 - __main__ - INFO - Fetching 20 articles for: 'Technology'
+2025-08-14 08:15:21,536 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:15:21] "GET /api/news?q=Technology HTTP/1.1" 200 -
+2025-08-14 08:15:23,632 - __main__ - INFO - Fetching 20 articles for: 'Politics'
+2025-08-14 08:15:24,613 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:15:24] "GET /api/news?q=Politics HTTP/1.1" 200 -
+2025-08-14 08:15:32,614 - __main__ - INFO - Fetching 20 articles for: 'Sports'
+2025-08-14 08:15:33,759 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:15:33] "GET /api/news?q=Sports HTTP/1.1" 200 -
+2025-08-14 08:17:49,996 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 08:17:51,581 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:17:51] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 08:17:51,588 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 08:17:53,000 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:17:53] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 08:18:28,293 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 08:18:29,888 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:18:29] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 08:18:29,892 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 08:18:31,745 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 08:18:31] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:26:08,432 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:26:08,435 - __main__ - ERROR - API request failed: HTTPSConnectionPool(host='eventregistry.org', port=443): Max retries exceeded with url: /api/v1/article/getArticles?apiKey=29f8e3c1-573f-4fe8-94ef-593b9dafb04a&keyword=&articlesCount=20&lang=eng&sortBy=date&ignoreSourceUri=paywall%2Fpaywalled_sources (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FB66E919D0>: Failed to resolve 'eventregistry.org' ([Errno 11001] getaddrinfo failed)"))
+2025-08-14 09:26:08,436 - __main__ - ERROR - News fetch failed: HTTPSConnectionPool(host='eventregistry.org', port=443): Max retries exceeded with url: /api/v1/article/getArticles?apiKey=29f8e3c1-573f-4fe8-94ef-593b9dafb04a&keyword=&articlesCount=20&lang=eng&sortBy=date&ignoreSourceUri=paywall%2Fpaywalled_sources (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FB66E919D0>: Failed to resolve 'eventregistry.org' ([Errno 11001] getaddrinfo failed)"))
+2025-08-14 09:26:08,437 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:26:08] "[35m[1mGET /api/news?q= HTTP/1.1[0m" 500 -
+2025-08-14 09:26:08,699 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:26:08,701 - __main__ - ERROR - API request failed: HTTPSConnectionPool(host='eventregistry.org', port=443): Max retries exceeded with url: /api/v1/article/getArticles?apiKey=29f8e3c1-573f-4fe8-94ef-593b9dafb04a&keyword=&articlesCount=20&lang=eng&sortBy=date&ignoreSourceUri=paywall%2Fpaywalled_sources (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FB66E903B0>: Failed to resolve 'eventregistry.org' ([Errno 11001] getaddrinfo failed)"))
+2025-08-14 09:26:08,701 - __main__ - ERROR - News fetch failed: HTTPSConnectionPool(host='eventregistry.org', port=443): Max retries exceeded with url: /api/v1/article/getArticles?apiKey=29f8e3c1-573f-4fe8-94ef-593b9dafb04a&keyword=&articlesCount=20&lang=eng&sortBy=date&ignoreSourceUri=paywall%2Fpaywalled_sources (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FB66E903B0>: Failed to resolve 'eventregistry.org' ([Errno 11001] getaddrinfo failed)"))
+2025-08-14 09:26:08,702 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:26:08] "[35m[1mGET /api/news?q= HTTP/1.1[0m" 500 -
+2025-08-14 09:27:53,449 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:27:54,953 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:27:54] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:27:59,336 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:28:00,495 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:28:00] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:28:05,067 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:28:06,361 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:28:06] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:28:30,478 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:28:31,738 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:28:31] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:28:34,784 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:28:36,064 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:28:36] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:29:15,850 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:29:17,911 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:29:17] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:29:33,454 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:29:34,671 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:29:34] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:29:34,674 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:29:39,519 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:29:39] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:30:01,370 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:30:03,038 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:30:03] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:30:03,040 - __main__ - INFO - Fetching 20 articles for: ''
+2025-08-14 09:30:06,575 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:30:06] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:31:57,310 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:31:58,466 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 09:31:59,596 - __main__ - INFO - Loading ML models...
+2025-08-14 09:32:01,974 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:32:01,977 - __main__ - INFO - Starting development server...
+2025-08-14 09:32:01,985 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 09:32:01,990 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 09:32:17,848 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:32:17,849 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:32:18,903 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 09:32:19,985 - __main__ - INFO - Loading ML models...
+2025-08-14 09:32:21,991 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:32:21,992 - __main__ - INFO - Starting development server...
+2025-08-14 09:32:22,004 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 09:32:22,011 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 09:32:23,522 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:32:23,531 - werkzeug - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+2025-08-14 09:32:24,397 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 09:32:25,259 - __main__ - INFO - Loading ML models...
+2025-08-14 09:32:27,140 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:32:27,143 - __main__ - INFO - Starting development server...
+2025-08-14 09:32:27,154 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 09:32:27,161 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 09:32:27,219 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:32:28,375 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:32:28] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:32:28,841 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:32:29,898 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:32:29] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:32:30,210 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:32:31,850 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:32:31] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:32:53,593 - __main__ - INFO - Fetching 21 articles for: 'News'
+2025-08-14 09:32:56,829 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:32:56] "GET /api/news?q=News HTTP/1.1" 200 -
+2025-08-14 09:38:32,783 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:38:32,785 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:38:33,806 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 09:38:34,860 - __main__ - INFO - Loading ML models...
+2025-08-14 09:38:36,793 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:38:36,797 - __main__ - INFO - Starting development server...
+2025-08-14 09:38:36,808 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 09:38:36,817 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 09:39:28,468 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:39:30,079 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:39:30] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:39:30,085 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:39:31,296 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:39:31] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:39:55,890 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:39:58,696 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:39:58] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:39:58,700 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:39:59,778 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:39:59] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:41:09,476 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:41:14,202 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:41:14] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:41:14,207 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:41:24,698 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:41:24] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:41:25,017 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:41:26,789 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:41:26] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:41:27,102 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:41:32,039 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:41:32] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:41:51,279 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:41:51,281 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:41:52,351 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 09:41:53,300 - __main__ - INFO - Loading ML models...
+2025-08-14 09:41:54,869 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:41:54,871 - __main__ - INFO - Starting development server...
+2025-08-14 09:41:54,880 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 09:41:54,886 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 09:41:55,153 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:41:55,154 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:41:56,225 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 09:41:57,165 - __main__ - INFO - Loading ML models...
+2025-08-14 09:41:59,290 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:41:59,292 - __main__ - INFO - Starting development server...
+2025-08-14 09:41:59,301 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 09:41:59,308 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 09:41:59,933 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:42:10,420 - __main__ - ERROR - API request failed: HTTPSConnectionPool(host='eventregistry.org', port=443): Read timed out. (read timeout=10)
+2025-08-14 09:42:10,420 - __main__ - ERROR - News fetch failed: HTTPSConnectionPool(host='eventregistry.org', port=443): Read timed out. (read timeout=10)
+2025-08-14 09:42:10,422 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:42:10] "[35m[1mGET /api/news?q= HTTP/1.1[0m" 500 -
+2025-08-14 09:42:10,429 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:42:14,527 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:42:14] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:45:00,792 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:45:00,794 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:45:01,186 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 09:45:02,250 - __main__ - INFO - Loading ML models...
+2025-08-14 09:45:03,852 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:45:03,854 - __main__ - INFO - Starting development server...
+2025-08-14 09:45:03,863 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 09:45:03,867 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 09:47:49,154 - __main__ - INFO - Loading ML models...
+2025-08-14 09:47:51,498 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:47:51,501 - __main__ - INFO - Starting development server...
+2025-08-14 09:47:51,529 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2025-08-14 09:47:51,530 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-14 09:47:51,541 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 09:47:52,672 - __main__ - INFO - Loading ML models...
+2025-08-14 09:47:54,523 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:47:54,525 - __main__ - INFO - Starting development server...
+2025-08-14 09:47:54,535 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 09:47:54,542 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 09:47:57,712 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:47:58,908 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:47:58] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:47:58,915 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:48:00,642 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:48:00] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:48:35,583 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:48:35,586 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 09:48:36,781 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 09:48:37,738 - __main__ - INFO - Loading ML models...
+2025-08-14 09:48:39,380 - __main__ - INFO - Models loaded successfully
+2025-08-14 09:48:39,382 - __main__ - INFO - Starting development server...
+2025-08-14 09:48:39,392 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 09:48:39,400 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 09:54:50,973 - __main__ - INFO - Fetching 21 articles for: 'All'
+2025-08-14 09:54:54,990 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:54:54] "GET /api/news?q=All HTTP/1.1" 200 -
+2025-08-14 09:56:03,319 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:56:04,669 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:56:04] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 09:56:04,672 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 09:56:05,767 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 09:56:05] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 10:01:49,752 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 10:01:52,066 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 10:01:52] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 10:01:52,072 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 10:01:53,344 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 10:01:53] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 10:07:35,726 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 10:07:35,730 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 10:07:36,298 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 10:07:50,076 - __main__ - INFO - Loading ML models...
+2025-08-14 10:08:18,055 - __main__ - INFO - Models loaded successfully
+2025-08-14 10:08:18,059 - __main__ - INFO - Starting development server...
+2025-08-14 10:08:18,328 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 10:08:18,344 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 10:21:31,910 - __main__ - INFO - Loading ML models...
+2025-08-14 10:21:33,815 - __main__ - INFO - Models loaded successfully
+2025-08-14 10:21:33,819 - __main__ - INFO - Starting development server...
+2025-08-14 10:21:33,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2025-08-14 10:21:33,960 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-14 10:21:33,973 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 10:21:35,072 - __main__ - INFO - Loading ML models...
+2025-08-14 10:21:36,830 - __main__ - INFO - Models loaded successfully
+2025-08-14 10:21:36,832 - __main__ - INFO - Starting development server...
+2025-08-14 10:21:36,850 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 10:21:36,856 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 10:21:42,340 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 10:21:44,018 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 10:21:44] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 10:21:44,023 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 10:21:47,427 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 10:21:47] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 10:23:29,032 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 10:23:30,703 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 10:23:30] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 10:23:30,708 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 10:23:31,945 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 10:23:31] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 10:26:33,926 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 10:26:33,928 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 10:26:35,527 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 10:26:36,533 - __main__ - INFO - Loading ML models...
+2025-08-14 10:26:38,163 - __main__ - INFO - Models loaded successfully
+2025-08-14 10:26:38,168 - __main__ - INFO - Starting development server...
+2025-08-14 10:26:38,175 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 10:26:38,182 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 10:26:47,592 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 10:26:47,594 - werkzeug - INFO -  * Detected change in 'D:\\know\\practice\\fake news(talent farm)\\Back end\\app.py', reloading
+2025-08-14 10:26:48,276 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-14 10:26:49,232 - __main__ - INFO - Loading ML models...
+2025-08-14 10:26:51,055 - __main__ - INFO - Models loaded successfully
+2025-08-14 10:26:51,059 - __main__ - INFO - Starting development server...
+2025-08-14 10:26:51,069 - werkzeug - WARNING -  * Debugger is active!
+2025-08-14 10:26:51,076 - werkzeug - INFO -  * Debugger PIN: 144-803-876
+2025-08-14 10:26:52,908 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 10:26:54,153 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 10:26:54] "GET /api/news?q= HTTP/1.1" 200 -
+2025-08-14 10:26:54,157 - __main__ - INFO - Fetching 21 articles for: ''
+2025-08-14 10:26:55,410 - werkzeug - INFO - 127.0.0.1 - - [14/Aug/2025 10:26:55] "GET /api/news?q= HTTP/1.1" 200 -

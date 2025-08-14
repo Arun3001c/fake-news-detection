@@ -15,12 +15,14 @@ import logging
 from datetime import datetime
 import sys
 import os
+from dotenv import load_dotenv
 
 # ======================
 # 2. APPLICATION INIT
 # ======================
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
+load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 
 # ======================
 # 3. CONFIGURATION
@@ -32,7 +34,7 @@ class Config:
     
     # API settings
     EVENT_REGISTRY_URL = "https://eventregistry.org/api/v1/article/getArticles"
-    API_KEY = "29f8e3c1-573f-4fe8-94ef-593b9dafb04a"  # Replace with your key
+    API_KEY = os.getenv("EVENT_REGISTRY_API_KEY", "")
     MAX_ARTICLES = 50
 
 # ======================
@@ -126,7 +128,7 @@ def get_news():
     try:
         # Get query parameters
         query = request.args.get('q', '')
-        count = min(int(request.args.get('count', 20)), Config.MAX_ARTICLES)
+        count = min(int(request.args.get('count', 21)), Config.MAX_ARTICLES)
         
         logger.info(f"Fetching {count} articles for: '{query}'")
         
@@ -147,15 +149,16 @@ def get_news():
         results = []
         for article in articles:
             try:
-                is_fake = predict_news(article.get('body', ''))
-                results.append({
-                    "title": article.get('title', 'No title'),
-                    "url": article.get('url', '#'),
-                    "source": article.get('source', {}).get('title', 'Unknown'),
-                    "date": article.get('date', ''),
-                    "is_fake": bool(is_fake),
-                    "body_preview": article.get('body', '')[:200] + '...' if article.get('body') else ''
-                })
+                    is_fake = predict_news(article.get('body', ''))
+                    results.append({
+                        "title": article.get('title', 'No title'),
+                        "url": article.get('url', '#'),
+                        "source": article.get('source', {}).get('title', 'Unknown'),
+                        "date": article.get('date', ''),
+                        "is_fake": bool(is_fake),
+                        "body_preview": article.get('body', '')[:200] + '...' if article.get('body') else '',
+                        "image_url": article.get('image', article.get('image_url', ''))
+                    })
             except Exception as e:
                 logger.warning(f"Skipping article: {str(e)}")
                 continue

@@ -13,7 +13,7 @@ export default function Header() {
       <div className="container d-flex justify-content-between align-items-center py-3">
         <div className="d-flex align-items-center gap-2">
           <img 
-            src="/newsLogo.jpg" 
+            src="/logo.png" 
             alt="Logo" 
             className="rounded-circle"
             style={{ width: '32px', height: '32px' }}
@@ -22,12 +22,12 @@ export default function Header() {
             FakeNews Detector
           </h1>
         </div>
-        <button 
+        {/* <button 
           onClick={() => setDarkMode(!darkMode)}
           className="btn btn-sm btn-outline-secondary rounded-circle p-2"
         >
           {darkMode ? <FiSun className="text-warning" /> : <FiMoon />}
-        </button>
+        </button> */}
       </div>
     </header>
   );

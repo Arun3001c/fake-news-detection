@@ -11,6 +11,7 @@ export default function NewsGrid({ news }) {
             source={article.source}
             isFake={article.is_fake}
             preview={article.body_preview}
+            imageUrl={article.image_url}
           />
         </div>
       ))}
