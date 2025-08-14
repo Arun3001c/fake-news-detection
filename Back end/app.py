@@ -211,13 +211,14 @@ def predict():
 # ======================
 def run_server():
     """Run the application with appropriate server"""
+    port = int(os.environ.get("PORT", 5000))  # <-- Get Render's port
     if os.environ.get('FLASK_ENV') == 'production':
         from waitress import serve
-        logger.info("Starting production server...")
-        serve(app, host="0.0.0.0", port=5000)
+        logger.info(f"Starting production server on port {port}...")
+        serve(app, host="0.0.0.0", port=port)
     else:
-        logger.info("Starting development server...")
-        app.run(host="0.0.0.0", port=5000, debug=True)
-
+        logger.info(f"Starting development server on port {port}...")
+        app.run(host="0.0.0.0", port=port, debug=True)
+        
 if __name__ == "__main__":
     run_server()
